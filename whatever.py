@@ -16,4 +16,4 @@ div_5 = [i for i in range(101) if i % 5 == 0]
 div_5_3 = [i**3 for i in div_5]
 print(div_5)
 print(div_5_3)
-#blablabla
+#milego dzionka, smacznej kawusi!
