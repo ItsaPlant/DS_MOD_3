@@ -12,8 +12,3 @@ print(shopping_dict)
 for shop in shopping_dict:
     print(f'I go to {shop} and buy {shopping_dict[shop]} items')
 
-div_5 = [i for i in range(101) if i % 5 == 0]
-div_5_3 = [i**3 for i in div_5]
-print(div_5)
-print(div_5_3)
-#blablabla
