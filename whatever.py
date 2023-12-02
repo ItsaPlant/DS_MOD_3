@@ -2,7 +2,11 @@ shops = dict(shop1=['item_1', 'item_12'], shop2=['item_2', 'ite_22'], shop3=['it
 
 shop: str
 count = 0
-
+for shop in shops:
+    count += len(shops[shop])
+    items_cap = [item.capitalize() for item in shops[shop]]
+    print(f'in {shop.capitalize()} I need to buy: {items_cap}')
+print(f'overall there was {count} items')
 shopping_dict = {shop: len(shops[shop]) for shop in shops}
 print(shopping_dict)
 for shop in shopping_dict:
